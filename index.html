@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
-
-
 
 <body>
     
 <header>
-    <h1>Camila Tobon</h1>
+    <h1 id="encabezado-principal">Camila Tobon</h1>
         <h2>Estudiante</h2>
-        <h3>    Estudiante de ingenieria en informatica</h3>
+        <h3>Estudiante de ingeniería en informática</h3>
         <nav>
             <ul>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -27,14 +25,15 @@
 <main>
     <section id="sobre-mi">
             <h2>Sobre mí</h2>
-            <p>Estudiante de ing.</p>
+            <p class="destacado">Estudiante de ing. con interés en desarrollo web.</p>
+            <p>Me apasiona el diseño y la programación.</p>
     </section>
 
     <section id="experiencia">
-        <h2>Experiencia academica</h2>
+        <h2>Experiencia académica</h2>
             <article>
                 <h3>Estudiante de desarrollo</h3>
-                <p>Proyectos de diseño web academicos</p>
+                <p>Proyectos de diseño web académicos</p>
             </article>
             <article>
                 <p>Diseño y maquetación de sitios web responsivos.</p>
@@ -45,8 +44,23 @@
         <a href="mailto:Camilatobonlopez80@gmail.com">Enviar email</a>
         <br>
         <a href="tel:+573215724007">Llamar</a>
-
+        <br><br>
+        <form>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo">
+        </form>
     </section>
+
+    <div class="contenedor">
+        <p>Texto dentro de contenedor (ejemplo de selector descendiente).</p>
+    </div>
+
+    <div class="sidebar">
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ul>
+    </div>
 
 <table>
     <caption>Ventas Semanales Febrero 2026</caption>
@@ -86,15 +100,14 @@
     </tfoot>
 </table>
 
-</br>
+<br>
 
 <iframe src="https://www.canalrcn.com/co" frameborder="0" width="100%" height="400"></iframe>
-
 
 </main>
 
 <footer>
-        <p><mark>&copy; 2026 Camila Tobon. Todos los derechos reservados.</p>
+        <p><mark>&copy; 2026 Camila Tobon. Todos los derechos reservados.</mark></p>
 </footer>
 
 </body>
